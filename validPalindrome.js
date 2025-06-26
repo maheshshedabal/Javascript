@@ -1,10 +1,16 @@
+
+//Time complexity: O(n)
+//Space complexity: O(1)
 function validPalindrome1(str) {
-    let nStr = str.replace(/[^a-zA-Z0-9]/g, '');
+    let nStr = str.replace(/[^a-zA-Z0-9 ]/g, '');
     return nStr === nStr.split('').reverse().join('');
 }
 
+
+//Time compliexity: O(n/2);
+//Space complexity: O(1)
 function validPalindrome2(str) {
-    let nStr = str.replace(/[^a-zA-Z0-9]/g, '');
+    let nStr = str.replace(/[^a-zA-Z0-9 ]/g, '');
 
     const n = Math.floor(nStr.length / 2)
     for (let i = 0; i < n; i++){
