@@ -76,6 +76,7 @@ function trappingRainWater3(arr) {
             //update the max 
             lMax = Math.max(lMax, arr[left]);
             //check if we can store the water
+            //let max height - currentHeight
             if (lMax - arr[left] > 0) {
                 sum = sum + lMax - arr[left];
             }

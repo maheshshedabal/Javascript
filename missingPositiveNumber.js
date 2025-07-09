@@ -1,6 +1,14 @@
 //Given an array arr find the missing first positive number
 //Ex: [0, -2, 1, 3, 5, 2]
 //retuns 4
+//Ex: [0, -2, 7, 8, 9]
+//returns 1
+
+//All posivite numners start from 1,2,3...
+//index starts from 0
+//so add 1 to make it look like natunal number 1,2,3...
+//keep checking if current anumber and index+1 are equal
+//once not equal return index+1  
 
 //Time complexity O(nlogn)
 function missingPositiveNumber(arr) {

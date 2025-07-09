@@ -1,4 +1,4 @@
-//example for sliding window
+//example for sliding window fixed size
 //max sum of subarray of given size k
 //arr = [4,2,1,7,8,1,2,8,1,8] K = 3
 //[4,2,1] = 7
