@@ -10,6 +10,7 @@
 //keep checking if current anumber and index+1 are equal
 //once not equal return index+1  
 
+//this solution only works for non duplicate array's
 //Time complexity O(nlogn)
 function missingPositiveNumber(arr) {
     arr = arr.filter(a => a > 0).sort();
